@@ -33,12 +33,12 @@ In the future Roozure will be able to:
 Edit this section later
 
 # Loretta
-[Loretta](URL https://github.com/LorettaDevs/Loretta/) is a C# Lua, GLua and Luau parser, code analysis, transformation and generation library maintained by me and [GGG-Killer](URL https://github.com/GGG-KILLER)
+[Loretta](https://github.com/LorettaDevs/Loretta/) is a C# Lua, GLua and Luau parser, code analysis, transformation and generation library maintained by me and [GGG-Killer](https://github.com/GGG-KILLER)
 
 <div align="left">
     <a href="https://github.com/LorettaDevs/Loretta/"><img src="https://github.com/LorettaDevs/Graphics/blob/main/logo.svg" height="217" /></a>
 </div>
 
-
 # License
 Both Loretta and Roozure are available under the MIT license.
+Roozure also relies on noblox for updating models.
