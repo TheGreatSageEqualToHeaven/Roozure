@@ -7,13 +7,13 @@
 **Roozure** is a tool designed to automatically obfuscate script packages to make exploiting games harder.
 
 ## What Roozure Is
-<div>**Roozure is**</div>
+**Roozure is**
 
 <div>A utility to prevent exploiters from reading your source code efficiently</div>
 <div>A utility to prevent exploiters from hooking your code </div>
 <div>A utility to prevent exploiters from dumping information from your code</div>
 
-<div>**Roozure is not**</div>
+**Roozure is not**
 
 <div>A security measure for your remotes</div>
 <div>A complete prevention to exploiting</div>
