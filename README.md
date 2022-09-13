@@ -14,7 +14,7 @@
 <div>A utility to prevent exploiters from dumping information from your code</div>
 
 **Roozure is not**
-
+<div></div>
 <div>A security measure for your remotes</div>
 <div>A complete prevention to exploiting</div>
 <div>A lossless security measure (Debugging information will be worse)</div>
