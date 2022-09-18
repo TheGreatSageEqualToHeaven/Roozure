@@ -23,11 +23,8 @@
 
 * Obfuscating a single script
 * Obfuscating a folder of scripts
-
-In the future Roozure will be able to:
- 
-* Obfuscate scripts with a fast Luau vm
-* Use an external module script for storing constants
+* Optionally obfuscate scripts with a VM (Will require manual setup)
+* Optionally use a module script to store constants
 
 ## Contributing
 Edit this section later
