@@ -23,7 +23,7 @@
 
 * Obfuscating a single script
 * Obfuscating a folder of scripts
-* Optionally obfuscate scripts with a [https://github.com/TheGreatSageEqualToHeaven/Fiu](Luau VM) (Will require manual setup)
+* Optionally obfuscate scripts with a [Luau VM](https://github.com/TheGreatSageEqualToHeaven/Fiu) (Will require manual setup)
 * Optionally use a module script to store constants
 
 ## Contributing
