@@ -4,7 +4,7 @@
 
 <hr />
 
-**Roozure** is a tool designed to automatically obfuscate script packages to make exploiting games harder.
+**Roozure** is a tool designed to automatically obfuscate script packages, models and place files to make exploiting games harder.
 
 ## What Roozure Is
 ### **Roozure is**
@@ -25,6 +25,30 @@
 * Obfuscating a folder of scripts
 * Optionally obfuscate scripts with a [Luau VM](https://github.com/TheGreatSageEqualToHeaven/Fiu) (Will require manual setup)
 * Optionally use a module script to store constants
+* Have a list of strings that get replaced every time Roozure rebuilds a script
+* Have a list of table keys that get replcated every time
+
+## What type of obfuscation can Roozure do?
+
+### Xoring Strings
+Strings will be decrypted with `bit32.bxor` and `string.unpack` to rely on builtin optimizations
+
+### Control Flow Flattening
+Scripts will have their control flow flattened using while loops to make decompiled output hard to reverse
+
+### VM Obfuscation
+Scripts will be obfuscated with a Luau VM compatible with the newest format, this needs to be setup by creating a "Fiu" module in `ReplicatedStorage`
+
+### Instance Obfuscation
+Scripts will have their instances obfuscated through an esoteric method of getting the `__index` metamethod of `Instance`
+```lua
+local indexInstance
+xpcall(function()
+  game:________()
+end, function()
+  indexInstance = debug.info(2, "f")
+end)
+```
 
 ## Contributing
 Edit this section later
