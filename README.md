@@ -24,9 +24,9 @@
 * Obfuscating a single script
 * Obfuscating a folder of scripts
 * Optionally obfuscate scripts with a [Luau VM](https://github.com/TheGreatSageEqualToHeaven/Fiu) (Will require manual setup)
-* Optionally use a module script to store constants
-* Have a list of strings that get replaced every time Roozure rebuilds a script
-* Have a list of table keys that get replcated every time
+* Optionally use a module script to store constants every time Roozure rebuilds a place
+* Have a list of strings that get replaced every time Roozure rebuilds a place
+* Have a list of table keys that get replcated every time Roozure rebuilds a place
 
 ## What type of obfuscation can Roozure do?
 
