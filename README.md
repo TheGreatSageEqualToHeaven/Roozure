@@ -4,7 +4,7 @@
 
 <hr />
 
-**Roozure** is a tool designed to automatically obfuscate script packages, models and place files to make exploiting games harder.
+**Roozure** is a tool designed to help secure your **Roblox** projects 
 
 ## What Roozure Is
 ### **Roozure is**
@@ -19,39 +19,13 @@
 <div>A complete prevention to exploiting</div>
 <div>A lossless security measure (Debugging information will be worse)</div>
 
-## Features
-
-* Obfuscating a single script
-* Obfuscating a folder of scripts
-* Optionally obfuscate scripts with a [Luau VM](https://github.com/TheGreatSageEqualToHeaven/Fiu) (Will require manual setup)
-* Optionally use a module script to store constants every time Roozure rebuilds a place
-* Have a list of strings that get replaced every time Roozure rebuilds a place
-* Have a list of table keys that get replcated every time Roozure rebuilds a place
-
 ## What type of obfuscation can Roozure do?
 
-### Xoring Strings
-Strings will be decrypted with `bit32.bxor` and `string.unpack` to rely on builtin optimizations
-
-### Control Flow Flattening
-Scripts will have their control flow flattened using while loops to make decompiled output hard to reverse
-
-### VM Obfuscation
-Scripts will be obfuscated with a Luau VM compatible with the newest format, this needs to be setup by creating a "Fiu" module in `ReplicatedStorage`
-
-### Instance Obfuscation
-Scripts will have their instances obfuscated through an esoteric method of getting the `__index` metamethod of `Instance`
-```lua
-local indexInstance
-xpcall(function()
-  game:________()
-end, function()
-  indexInstance = debug.info(2, "f")
-end)
-```
+<div>**FILL IN**</div>
 
 ## Contributing
-Edit this section later
+
+<div>**FILL IN**</div>
 
 # Loretta
 [Loretta](https://github.com/LorettaDevs/Loretta/) is a C# Lua, GLua and Luau parser, code analysis, transformation and generation library maintained by me and [GGG](https://github.com/GGG-KILLER)
@@ -60,6 +34,11 @@ Edit this section later
     <a href="https://github.com/LorettaDevs/Loretta/"><img src="https://github.com/LorettaDevs/Graphics/blob/main/logo.svg" height="217" /></a>
 </div>
 
+# NLua
+NLua is a bridge between Lua and .NET which runs on top of a KeraLua binding.
+
+[![Logo](https://secure.gravatar.com/avatar/77ecf0fb9d8419be7715c6e822e66562?s=150)](https://github.com/NLua/NLua)
+
 # License
-Both Loretta and Roozure are available under the MIT license.
-Roozure also relies on noblox for updating models.
+
+Roozure uses both Loretta and NLua to function. Loretta and NLua are licensed under the MIT license.
